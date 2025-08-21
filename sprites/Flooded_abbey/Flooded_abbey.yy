@@ -3,8 +3,8 @@
   "%Name":"Flooded_abbey",
   "bboxMode":0,
   "bbox_bottom":127,
-  "bbox_left":0,
-  "bbox_right":127,
+  "bbox_left":8,
+  "bbox_right":135,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"25ba1495-13c5-4676-856f-147b7e28a87f","name":"25ba1495-13c5-4676-856f-147b7e28a87f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":8,
+  "gridY":8,
   "height":128,
   "HTile":false,
   "layers":[
@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -83,7 +83,7 @@
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
     "seqHeight":128.0,
-    "seqWidth":128.0,
+    "seqWidth":136.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
@@ -107,5 +107,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":136,
 }

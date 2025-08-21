@@ -1,0 +1,31 @@
+var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
+move_and_collide(_hor*move_speed,_ver*move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+
+if(_hor != 0 or _ver != 0 )
+{
+    image_xscale = 1;
+    if(_ver>0) sprite_index = Gawain_walk_down; 
+    else if(_ver<0) sprite_index = Gawain_walk_up;
+    else if(_hor>0) sprite_index = Gawain_walk_right;
+    else if(_hor<0){
+        sprite_index = Gawain_walk_right;
+        image_xscale = -1   ; 
+    } 
+    facing = point_direction(0,0, _hor, _ver) 
+} else {
+    if(sprite_index == Gawain_walk_down)sprite_index = Gawain_idle_down;
+    if(sprite_index == Gawain_walk_up)sprite_index = Gawain_idle_up;
+    if(sprite_index == Gawain_walk_right)sprite_index = Gawain_idle_right;
+    if(image_xscale == -1) sprite_index=Gawain_idle_right;
+    
+}
+
+if(keyboard_check_pressed(vk_space))
+{
+    if(instance_exists(obj_sword_swing)) exit;
+   var _inst = instance_create_depth(x,y ,depth, obj_sword_swing)
+    _inst.image_angle = facing;
+    
+}
