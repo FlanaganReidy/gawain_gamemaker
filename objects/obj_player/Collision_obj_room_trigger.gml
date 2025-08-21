@@ -1,3 +1,1 @@
-if(currentRoom == global.dungeonCameraStruct.screen1){
-    currentRoom= global.dungeonCameraStruct.screen0;
-}
+obj_room_manager.currentScreen = obj_room_manager.dungeonCameraStruct.screen0

@@ -6,11 +6,15 @@ roomStruct =
                 height:18, 
                 offSetX:0, 
                 offSetY:0
-                }
-            }
+                },
+        screen1:{
+                width:20, 
+                height:18, 
+                offSetX:0, 
+                offSetY:16
+        } 
+    }
 };
-
-
 
 dungeonCameraStruct = {
     screen0:{
@@ -21,16 +25,18 @@ dungeonCameraStruct = {
     }
 }
 
+currentRoom = struct_get(roomStruct, room_get_name(room));
 
-array_foreach(dungeonScreenArray, function(item, index){
+currentTilemap = layer_tilemap_get_id("Floor")
+struct_foreach(currentRoom, function(key, item){
     _screen_bounds = get_room_camera_bounds_from_tiles
     (item.width, 
     item.height, 
     item.offSetX, 
     item.offSetY, 
-    tilemap);
+    currentTilemap);
     
-   struct_set(dungeonCameraStruct, $"screen{index}", _screen_bounds)
+   struct_set(dungeonCameraStruct, key, _screen_bounds)
 })
 
-currentRoom = dungeonCameraStruct.screen0;
+currentScreen = dungeonCameraStruct.screen1

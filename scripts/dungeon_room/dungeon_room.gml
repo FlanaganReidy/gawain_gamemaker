@@ -37,9 +37,9 @@ function get_size_from_tiles(widthInTiles, heightInTiles, tileMap){
     }
 }
 
-function get_room_camera_bounds_from_tiles(roomWidth, roomHeight, startingX, startingY, tileMap){
-    var _minX = startingX * tilemap_get_tile_height(tileMap);
-    var _minY = startingY * tilemap_get_tile_width(tileMap);
+function get_room_camera_bounds_from_tiles(roomWidth, roomHeight, startingXInTiles, startingYInTiles, tileMap){
+    var _minX = startingXInTiles * tilemap_get_tile_height(tileMap);
+    var _minY = startingYInTiles * tilemap_get_tile_width(tileMap);
     var result = get_size_from_tiles(roomWidth, roomHeight, tileMap);
     var _maxX = _minX + result.width;
     var _maxY = _minY + result.height;
