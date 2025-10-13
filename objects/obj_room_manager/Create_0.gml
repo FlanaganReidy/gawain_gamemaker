@@ -1,4 +1,4 @@
-roomStruct = 
+ roomStruct = 
 {
     Room1: {
         screen0: {
