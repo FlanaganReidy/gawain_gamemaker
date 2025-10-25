@@ -25,7 +25,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"targetScreen","filters":[],"listItems":[],"multiselect":false,"name":"targetScreen","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"screen0\"","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
@@ -34,5 +36,5 @@
     "path":"sprites/red_bar/red_bar.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"gbs_mono",
+    "path":"folders/Sprites/gbs_mono.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
