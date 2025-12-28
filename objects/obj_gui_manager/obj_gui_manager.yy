@@ -8,8 +8,8 @@
   "name":"obj_gui_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Game_Managers",
+    "path":"folders/Objects/Game_Managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
