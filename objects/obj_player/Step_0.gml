@@ -3,6 +3,11 @@ var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 move_and_collide(_hor*move_speed,_ver*move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
 
+//debug commands
+ if(keyboard_check(ord("H"))){
+    current_health = 12;
+}
+
 
 if(movement_state=="default"){
     if(_hor != 0 or _ver != 0 )

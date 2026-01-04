@@ -1,0 +1,11 @@
+target_x = x + distance_to_walk
+target_y = y
+tilemap = layer_tilemap_get_id("Col")
+alarm[0]=alarm_interval
+image_angle = 90
+flip = 0
+move_speed = .5
+alarm[1] = 0
+knockback_x = 0
+knockback_y = 0
+damage = 1

@@ -34,6 +34,7 @@
     {"$GMTileAnimation":"","%Name":"waterfall_northwall_2","frames":[28,29,30,28,],"name":"waterfall_northwall_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
     {"$GMTileAnimation":"","%Name":"water_flow_up_1","frames":[228,245,262,228,245,262,228,245,],"name":"water_flow_up_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
     {"$GMTileAnimation":"","%Name":"water_flow_up_2","frames":[229,246,263,229,246,263,229,246,],"name":"water_flow_up_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[99,98,97,97,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
   ],
   "tileAnimationSpeed":6.0,
   "tileHeight":8,
