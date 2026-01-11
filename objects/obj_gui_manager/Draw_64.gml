@@ -8,7 +8,7 @@ for(var i = 4; i <= obj_player.total_health; i += 4)
             draw_sprite(ui_heart, 0, 112+(i*2), 128)
             
         } else{
-            draw_sprite(ui_heart, 4, 112+(i*2), 136)
+            draw_sprite(ui_heart, 0, 112+(i*2), 136)
         }
         
     } else {
