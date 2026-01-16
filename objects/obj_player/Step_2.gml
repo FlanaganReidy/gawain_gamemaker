@@ -1,3 +1,5 @@
+
+//revisit this we want some things to always be lower than gawain
 with(all)
 {
     depth = -bbox_bottom;

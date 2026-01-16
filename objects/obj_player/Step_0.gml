@@ -9,6 +9,14 @@ move_and_collide(_hor*move_speed,_ver*move_speed, tilemap, undefined, undefined,
 }
 
 
+//walk type handler
+if(tilemap_get_at_pixel(water_tiles, x, bbox_bottom)){
+    movement_state = "shallow_water"
+} else {
+    movement_state = "default"
+}
+
+
 if(movement_state=="default"){
     if(_hor != 0 or _ver != 0 )
 {
@@ -50,7 +58,7 @@ if(movement_state=="default"){
 }
 }
 
-
+//sword swing code
 if(keyboard_check_pressed(vk_space))
 {
     if(instance_exists(obj_sword_swing)) exit;
