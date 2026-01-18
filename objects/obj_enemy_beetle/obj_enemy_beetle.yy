@@ -30,7 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"distance_to_walk","filters":[],"listItems":[],"multiselect":false,"name":"distance_to_walk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"alarm_interval","filters":[],"listItems":[],"multiselect":false,"name":"alarm_interval","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"90","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"alarm_interval","filters":[],"listItems":[],"multiselect":false,"name":"alarm_interval","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
