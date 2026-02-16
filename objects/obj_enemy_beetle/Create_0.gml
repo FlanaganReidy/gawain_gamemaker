@@ -9,3 +9,4 @@ alarm[1] = 0
 knockback_x = 0
 knockback_y = 0
 damage = 1
+hp = 2

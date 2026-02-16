@@ -8,6 +8,7 @@ current_health = 8
 alarm[0]=0;
 i_state = false;
 water_tiles = layer_tilemap_get_id("Water");
+seeds = 0;
 
 
 
