@@ -8,5 +8,6 @@ move_speed = .5
 alarm[1] = 0
 knockback_x = 0
 knockback_y = 0
+invuln = false;
 damage = 1
 hp = 2
