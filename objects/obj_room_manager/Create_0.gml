@@ -28,6 +28,10 @@ dungeonCameraStruct = {
 currentRoom = struct_get(roomStruct, room_get_name(room));
 
 currentTilemap = layer_tilemap_get_id("Floor")
+
+tile_width = tilemap_get_tile_width(currentTilemap);
+global.tile_size_ = tile_width
+
 struct_foreach(currentRoom, function(key, item){
     _screen_bounds = get_room_camera_bounds_from_tiles
     (item.width, 

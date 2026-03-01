@@ -1,6 +1,6 @@
 
 
-
+tile_size_ = 16;
 
 /**@description Function that sets the clamped bounds of a room as well as can switch object to follow
  * @param {integer} minX x coordinate of the left bound of the room in pixels
@@ -9,6 +9,9 @@
  * @param {integer} maxY y coordinate of the lower bound of the room in pixels
  * @param {Asset.GMObject} objToFollow object within the room for the camera to follow.
 */
+
+
+
 function move_dungeon_room(minX, minY, maxX, maxY, objToFollow){
     
     halfViewWidth = camera_get_view_width(view_camera[0]/2)

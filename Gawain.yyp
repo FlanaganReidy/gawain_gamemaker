@@ -55,6 +55,7 @@
     {"id":{"name":"obj_locked_door","path":"objects/obj_locked_door/obj_locked_door.yy",},},
     {"id":{"name":"obj_movement_trigger","path":"objects/obj_movement_trigger/obj_movement_trigger.yy",},},
     {"id":{"name":"obj_obstacle_parent","path":"objects/obj_obstacle_parent/obj_obstacle_parent.yy",},},
+    {"id":{"name":"obj_obstacle_sliding_block","path":"objects/obj_obstacle_sliding_block/obj_obstacle_sliding_block.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_room_manager","path":"objects/obj_room_manager/obj_room_manager.yy",},},
     {"id":{"name":"obj_room_trigger","path":"objects/obj_room_trigger/obj_room_trigger.yy",},},
