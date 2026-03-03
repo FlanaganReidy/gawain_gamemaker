@@ -1,10 +1,37 @@
-if(place_meeting(x,bbox_bottom,obj_player)){
-    move_speed = .5
-    target_y = y - global.tile_size_
-}
-
-if(target_x == x && target_y == y){
-    move_speed = 0
+if(!isSliding){
+    if(place_meeting(x,bbox_bottom-7,obj_player)){
+        push_counter++;
+        if(push_counter > 20) {
+            isSliding= true; 
+            target_y = y - grid_square_size;
+            push_counter = 0
+        }
+        
+    }
+    if(place_meeting(x,bbox_top+7,obj_player)){
+         push_counter++;
+        if(push_counter > 20) {
+            isSliding= true;
+            target_y = y + grid_square_size
+            push_counter = 0;
+        }
+    }
+    if(place_meeting(bbox_left+7,y,obj_player)){
+        push_counter++;
+        if(push_counter > 20) {
+            isSliding= true;
+            target_x = x + grid_square_size
+            push_counter = 0;
+        }    
+    }
+    if(place_meeting(bbox_right-7,y,obj_player)){
+        push_counter++;
+        if(push_counter > 20) {
+            isSliding= true;
+            target_x = x - grid_square_size 
+            push_counter =0;
+        }    
+    }
 }
 
 
