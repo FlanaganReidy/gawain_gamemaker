@@ -24,7 +24,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"obstacle_type","filters":[],"listItems":[],"multiselect":false,"name":"obstacle_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"default","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"isIneractable","filters":[],"listItems":[],"multiselect":false,"name":"isIneractable","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

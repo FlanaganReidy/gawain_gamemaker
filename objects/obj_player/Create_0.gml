@@ -10,6 +10,7 @@ i_state = false;
 water_tiles = layer_tilemap_get_id("Water");
 seeds = 0;
 small_keys = 1;
-
+vector_x = 0;
+vector_y = 0;
 
 

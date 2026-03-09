@@ -1,6 +1,6 @@
 draw_sprite(ui_bar, 0, 0, 128)
 draw_set_font(font_gb_mono)
-draw_text(0,16, obj_player.current_health)
+draw_text(2,32, obj_player.current_health)
 for(var i = 4; i <= obj_player.total_health; i += 4)
 {
     if(i<obj_player.current_health){

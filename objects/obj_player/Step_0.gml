@@ -34,7 +34,6 @@ if(movement_state=="default"){
     if(sprite_index == Gawain_walk_up)sprite_index = Gawain_idle_up;
     if(sprite_index == Gawain_walk_right)sprite_index = Gawain_idle_right;
     if(image_xscale == -1) sprite_index=Gawain_idle_right;
-    
 }
     
 } else if (movement_state == "shallow_water") {
@@ -48,7 +47,9 @@ if(movement_state=="default"){
         sprite_index = Gawain_water_right;
         image_xscale = -1   ; 
     } 
-    facing = point_direction(0,0, _hor, _ver) 
+    facing = point_direction(0,0, _hor, _ver)
+
+
 } else {
     if(sprite_index == Gawain_water_down)sprite_index = Gawain_water_idle_down;
     if(sprite_index == Gawain_water_up)sprite_index = Gawain_water_idle_up;
@@ -66,4 +67,10 @@ if(keyboard_check_pressed(vk_space))
     _inst.image_angle = facing - 90;
     
 }
+vector_y = -dsin(facing)
+vector_x = dcos(facing)
 
+instanceId = collision_line(x, y, x + vector_x*10, y+vector_y*10, obj_obstacle_parent, false, true);
+with(instanceId){
+    debug_event(object_index)
+}
