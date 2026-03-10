@@ -58,6 +58,13 @@ if(movement_state=="default"){
     
 }
 }
+if(keyboard_check(vk_space)){
+    create_dialog([{
+        name:"Test Dialog",
+        msg: "This is test dialog!"
+    }])
+}
+
 
 //sword swing code
 if(keyboard_check_pressed(vk_space))
