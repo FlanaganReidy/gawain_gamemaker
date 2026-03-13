@@ -11,7 +11,7 @@ if (place_meeting(x,y, obj_movement_trigger)){
 
 } else {
     movement_state = "default";
-}
+} 
 
 move_dungeon_room(
 obj_room_manager.currentScreen.minX, 

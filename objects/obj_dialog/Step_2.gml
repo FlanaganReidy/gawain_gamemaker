@@ -9,5 +9,7 @@ if (current_char < string_length(_str)){
     current_message++;
     if(current_message >= array_length(messages)){
         instance_destroy();
+    } else {
+        current_char = 0;
     }
 }
