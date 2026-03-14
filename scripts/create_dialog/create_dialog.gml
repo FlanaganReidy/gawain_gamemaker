@@ -5,3 +5,8 @@ function create_dialog(_messages){
     _inst.messages = _messages;
     _inst.current_message = 0;
 }
+
+guide_stone_msg_1 = [{
+        name:"Guidestone",
+        msg: "~Flooded Aqueduct~"
+    }]

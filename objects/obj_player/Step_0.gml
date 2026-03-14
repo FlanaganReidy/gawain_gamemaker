@@ -1,15 +1,11 @@
 if(instance_exists(obj_dialog)) exit;
     
-if(keyboard_check_pressed(vk_space)){
-    create_dialog([{
-        name:"Test Dialog",
-        msg: "This is test dialog!"
-    }])
-}
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 move_and_collide(_hor*move_speed,_ver*move_speed, [tilemap, obj_obstacle_parent], undefined, undefined, undefined, move_speed, move_speed);
+
+
 
 //debug commands
  if(keyboard_check(ord("H"))){
@@ -70,7 +66,7 @@ if(movement_state=="default"){
 
 
 //sword swing code
-if(keyboard_check_pressed(vk_space))
+if(keyboard_check_pressed(state.bindings.a_button_bind))
 {
     if(instance_exists(obj_sword_swing)) exit;
    var _inst = instance_create_depth(x,y ,depth, obj_sword_swing)
