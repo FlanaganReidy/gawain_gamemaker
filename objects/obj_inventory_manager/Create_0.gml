@@ -1,6 +1,9 @@
+gui_w = display_get_gui_width();
+gui_h = display_get_gui_height();
+
 var _columns = 3
 var _rows = 8
-var _itemData = 4
+var _itemData = 3
 
 inventory_array = array_create(_columns, 0);
 for( var i = 0; i < _columns; i ++){

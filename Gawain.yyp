@@ -56,6 +56,7 @@
     {"id":{"name":"obj_guidestone","path":"objects/obj_guidestone/obj_guidestone.yy",},},
     {"id":{"name":"obj_inventory_manager","path":"objects/obj_inventory_manager/obj_inventory_manager.yy",},},
     {"id":{"name":"obj_item_key","path":"objects/obj_item_key/obj_item_key.yy",},},
+    {"id":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},},
     {"id":{"name":"obj_item_seed","path":"objects/obj_item_seed/obj_item_seed.yy",},},
     {"id":{"name":"obj_locked_door","path":"objects/obj_locked_door/obj_locked_door.yy",},},
     {"id":{"name":"obj_movement_trigger","path":"objects/obj_movement_trigger/obj_movement_trigger.yy",},},
