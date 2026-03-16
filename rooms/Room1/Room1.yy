@@ -17,6 +17,7 @@
     {"name":"inst_B50FD0C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_361ADCE0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_124D56FE","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1883F5FA","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,6 +39,7 @@
         {"$GMRInstance":"v4","%Name":"inst_124D56FE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_124D56FE","objectId":{"name":"obj_guidestone","path":"objects/obj_guidestone/obj_guidestone.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guidestone","path":"objects/obj_guidestone/obj_guidestone.yy",},"propertyId":{"name":"message","path":"objects/obj_guidestone/obj_guidestone.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.guide_stone_msg_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1883F5FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1883F5FA","objectId":{"name":"obj_item_key","path":"objects/obj_item_key/obj_item_key.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":104.0,"y":200.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":96,"SerialiseWidth":171,"TileCompressedData":[
           2,1,2,-3,3,-2,11,13,3,11,11,3,11,12,3,11,11,3,3,9,10,-151,-2147483648,2,18,19,-3,20,-2,28,13,20,28,28,

@@ -1,15 +1,24 @@
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
 
-var _columns = 3
-var _rows = 8
+cursor_x = 0;
+cursor_y=0;
+
+selected_x=-1;
+selected_y=-1;
+
+_dx = 0;
+_dy = 0;
+
+ _columns = 7
+ _rows = 7
 var _itemData = 3
 
-inventory_array = array_create(_columns, 0);
-for( var i = 0; i < _columns; i ++){
+inventory_array = array_create(_rows, 0);
+for( var i = 0; i < _rows; i ++){
     
-    row_array = array_create(_rows, 0)
-    for(var j = 0; j < _rows; j++){
+    row_array = array_create(_columns, 0)
+    for(var j = 0; j < _columns; j++){
         row_array[j] = array_create(_itemData, 0)
         
     }
