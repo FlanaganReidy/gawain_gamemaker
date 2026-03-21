@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_item_key",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object20",
+  "eventList":[],
   "managed":true,
-  "name":"obj_item_key",
+  "name":"Object20",
   "overriddenProperties":[],
   "parent":{
-    "name":"items",
-    "path":"folders/Objects/items.yy",
+    "name":"effects",
+    "path":"folders/Objects/effects.yy",
   },
   "parentObjectId":{
-    "name":"obj_item_parent",
-    "path":"objects/obj_item_parent/obj_item_parent.yy",
+    "name":"obj_effect_parent",
+    "path":"objects/obj_effect_parent/obj_effect_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"small_key",
-    "path":"sprites/small_key/small_key.yy",
+    "name":"poof",
+    "path":"sprites/poof/poof.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"poof",
+    "path":"sprites/poof/poof.yy",
+  },
   "visible":true,
 }

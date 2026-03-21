@@ -10,7 +10,7 @@ selected_y=-1;
 _dx = 0;
 _dy = 0;
 
- _columns = 7
+ _columns = 6
  _rows = 7
 var _itemData = 3
 
