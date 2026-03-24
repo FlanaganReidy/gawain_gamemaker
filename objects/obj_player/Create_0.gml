@@ -1,4 +1,4 @@
-move_speed = .5;
+move_speed = .75;
 tilemap = layer_tilemap_get_id("Col");
 player_direction = 1;
 facing = 0;
