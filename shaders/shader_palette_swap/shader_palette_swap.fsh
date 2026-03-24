@@ -1,6 +1,6 @@
 //
-// Simple passthrough fragment shader
-//
+// Simple Palette Swap shader, takes in a uniform target for the sprites 
+// Base color palette, and a second uniform for the replacement palette 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
