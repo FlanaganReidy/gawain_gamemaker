@@ -2,6 +2,19 @@ if(instance_exists(obj_dialog)) exit;
     
 if(state.isPaused) exit;
     
+//drown behavior
+if(tilemap_get_at_pixel(deep_water_tiles, x, bbox_bottom)){
+    if(alarm[1] < 1){
+        alarm[1] = 120;
+        sprite_index = Gawain_water_drown
+    }
+}
+if(sprite_index == Gawain_water_drown){
+    exit;
+}
+
+
+    
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
@@ -21,6 +34,7 @@ if(tilemap_get_at_pixel(water_tiles, x, bbox_bottom)){
 } else {
     movement_state = "default"
 }
+
 
 
 if(movement_state=="default"){

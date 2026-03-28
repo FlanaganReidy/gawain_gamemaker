@@ -1,5 +1,3 @@
-global.sub_img = 0;
-
 function layer_shader_start(sub_img){
         if(event_type == ev_draw){
             if(event_number == ev_draw_normal){
