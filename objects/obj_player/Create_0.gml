@@ -1,16 +1,18 @@
 move_speed = .75;
-tilemap = layer_tilemap_get_id("Col");
 player_direction = 1;
 facing = 0;
 movement_state = "default"
-total_health = 12
-current_health = 12
 i_state = false;
+
 //layer tile Ids
 water_tiles = layer_tilemap_get_id("Water");
 deep_water_tiles = layer_tilemap_get_id("Deep_Water");
+tilemap = layer_tilemap_get_id("Col");
+
 seeds = 0;
 small_keys = 1;
+
+//vectors for drawing collision line
 vector_x = 0;
 vector_y = 0;
 

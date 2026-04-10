@@ -15,8 +15,8 @@ if(sprite_index == Gawain_water_drown){
 
 
     
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+var _hor = InputCheck(INPUT_VERB.RIGHT ) - InputCheck(INPUT_VERB.LEFT );
+var _ver = InputCheck(INPUT_VERB.DOWN ) - InputCheck(INPUT_VERB.UP );
 
 move_and_collide(_hor*move_speed,_ver*move_speed, [tilemap, obj_obstacle_parent], undefined, undefined, undefined, move_speed, move_speed);
 
@@ -24,7 +24,7 @@ move_and_collide(_hor*move_speed,_ver*move_speed, [tilemap, obj_obstacle_parent]
 
 //debug commands
  if(keyboard_check(ord("H"))){
-    current_health = 12;
+    state.gawain_status.current_health = 12;
 }
 
 
@@ -82,7 +82,7 @@ if(movement_state=="default"){
 
 
 //sword swing code
-if(keyboard_check_pressed(state.bindings.a_button_bind))
+if(InputCheck(INPUT_VERB.A) && state.a_button[item_name] =="sword")
 {
     if(instance_exists(obj_sword_swing)) exit;
    var _inst = instance_create_depth(x,y ,depth, obj_sword_swing)

@@ -1,12 +1,12 @@
 state_ = {
 	screen_scale:3,
-    bindings:{ 
-        a_button_bind:ord("J"),
-        b_button_bind:ord("k")
-    },
-    a_button:sword_icon,
-    b_button:"none",
-    isPaused:false
+    a_button:[0, 0,0],
+    b_button:[0, 0,0],
+    isPaused:false, 
+    gawain_status:{
+        total_health:12,
+        current_health:12
+    }
 }
 
 #macro state global.state_
