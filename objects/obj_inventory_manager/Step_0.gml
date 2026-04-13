@@ -32,7 +32,14 @@ if(state.isPaused){
     }
     if(InputPressed(INPUT_VERB.A)){
         if(selected_x != -1 && selected_y != -2){ 
-            if(selected_y== -1 && selected_x==0){
+            if(((selected_x ==0 || selected_x == 1) && selected_y == -1) && 
+               ((cursor_x ==0  ||cursor_x ==1 )&& cursor_y ==-1)){
+                var temp = state.a_button;
+                state.a_button =  state.b_button;
+                state.b_button = temp;
+                selected_x = -1;
+                selected_y = -2;
+            } else if(selected_y== -1 && selected_x==0){
                 var temp = state.a_button;
                 state.a_button = inventory_array[cursor_x][cursor_y]
                 inventory_array[cursor_x][cursor_y] = temp

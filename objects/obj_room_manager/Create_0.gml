@@ -1,21 +1,3 @@
- roomStruct = 
-{
-    Room1: {
-        screen0: {
-                width:20, 
-                height:18, 
-                offSetX:0, 
-                offSetY:0
-                },
-        screen1:{
-                width:20, 
-                height:18, 
-                offSetX:0, 
-                offSetY:16
-        } 
-    }
-};
-
 dungeonCameraStruct = {
     screen0:{
         minX:0,
@@ -25,7 +7,8 @@ dungeonCameraStruct = {
     }
 }
 
-currentRoom = struct_get(roomStruct, room_get_name(room));
+currentRoom = struct_get(dungeon_one_structs.roomStruct, room_get_name(room));
+currentPuzzleGroup = struct_get(dungeon_one_structs.puzzleStruct, room_get_name(room))
 
 currentTilemap = layer_tilemap_get_id("Floor")
 

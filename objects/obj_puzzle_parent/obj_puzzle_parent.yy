@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_room_manager",
+  "%Name":"obj_puzzle_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_room_manager",
+  "name":"obj_puzzle_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game_Managers",
-    "path":"folders/Objects/Game_Managers.yy",
+    "name":"puzzles",
+    "path":"folders/Objects/puzzles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +31,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

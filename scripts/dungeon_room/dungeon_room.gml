@@ -69,3 +69,16 @@ function construct_room_object(roomArray){
         
     
 }
+function checkSolveLocation(current_x, current_y, solved_array, tileMap){
+    var _tileHeight = tilemap_get_tile_height(tileMap);
+    var _tileWidth = tilemap_get_tile_width(tileMap)
+    for(var i = 0; i < array_length(solved_array); i++){
+        var temp_x = solved_array[i][0] * _tileWidth;
+        var temp_y = solved_array[i][1] * _tileHeight;
+        debug_event(temp_x);
+        if(temp_x==current_x && temp_y==current_y){
+            return true;
+        }
+    }
+    return false;
+}

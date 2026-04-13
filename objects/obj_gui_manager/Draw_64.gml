@@ -24,7 +24,8 @@ _drawx += 32;
 if(state.isPaused){
     if(obj_inventory_manager.cursor_y == -1 && obj_inventory_manager.cursor_x==1){
         draw_sprite(cursor,0, _drawx, _drawy)
-    }else if(obj_inventory_manager.selected_x == -1 && obj_inventory_manager.selected_x==1){
+    } 
+    if(obj_inventory_manager.selected_y == -1 && obj_inventory_manager.selected_x==1){
         draw_sprite(select,0, _drawx, _drawy)
     }
 }

@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_room_manager",
+  "%Name":"obj_block_puzzle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_room_manager",
+  "name":"obj_block_puzzle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game_Managers",
-    "path":"folders/Objects/Game_Managers.yy",
+    "name":"puzzles",
+    "path":"folders/Objects/puzzles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +26,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"puzzle_name","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"puzzle_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"solved_locations","filters":[],"listItems":[],"multiselect":false,"name":"solved_locations","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
