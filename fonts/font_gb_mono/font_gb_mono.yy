@@ -905,7 +905,7 @@
   "name":"font_gb_mono",
   "parent":{
     "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "path":"folders/Extensions/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

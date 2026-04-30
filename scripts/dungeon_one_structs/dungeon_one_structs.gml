@@ -1,4 +1,5 @@
 dungeon_one_structs_ = {
+    flood_level:3,
     roomStruct:{
         Room1: {
             screen0: {
@@ -13,7 +14,6 @@ dungeon_one_structs_ = {
                 offSetX:0, 
                 offSetY:16,
             },
-         
         }
     },
     puzzleStruct:{

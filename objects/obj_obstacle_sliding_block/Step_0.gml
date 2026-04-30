@@ -62,7 +62,7 @@ if(target_x == x && target_y == y){
         var solved_locations = this_puzzle.solved_locations
         matches = checkSolveLocation(x,y,solved_locations, tilemap)
         if(matches){
-            this_puzzle.solve_count = 1;
+            this_puzzle.solve_count += 1;
             if(array_length(this_puzzle.solved_locations)== this_puzzle.solve_count){
                 this_puzzle.solved = true;
                 struct_set(obj_room_manager.currentPuzzleGroup, puzzle_location, this_puzzle)
