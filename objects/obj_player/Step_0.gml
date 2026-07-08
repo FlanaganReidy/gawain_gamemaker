@@ -92,7 +92,7 @@ if(InputCheck(INPUT_VERB.A) && state.a_button[item_name] =="sword")
 vector_y = -dsin(facing)
 vector_x = dcos(facing)
 
-instanceId = collision_line(x, y, x + vector_x*10, y+vector_y*10, obj_obstacle_parent, false, true);
+/*instanceId = collision_line(x, y, x + vector_x*10, y+vector_y*10, obj_obstacle_parent, false, true);
 with(instanceId){
     debug_event(object_index)
-}
+}*/

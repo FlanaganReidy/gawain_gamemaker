@@ -6,7 +6,7 @@ i_state = false;
 
 //layer tile Ids
 water_tiles = layer_tilemap_get_id("Water");
-deep_water_tiles = layer_tilemap_get_id("Deep_Water");
+deep_water_tiles = layer_tilemap_get_id("DeepWater");
 tilemap = layer_tilemap_get_id("Col");
 
 seeds = 0;

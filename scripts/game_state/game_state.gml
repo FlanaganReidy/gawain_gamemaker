@@ -8,5 +8,8 @@ state_ = {
         current_health:12
     }
 }
-
+left_ = 0;
+right_ = 1
+#macro switch_left global.left_
+#macro switch_right global.right_
 #macro state global.state_

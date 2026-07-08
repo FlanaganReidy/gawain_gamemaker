@@ -3,9 +3,15 @@
   "%Name":"Flooded_Abbey_Tileset_Upd",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":12,
+    "SerialiseWidth":55,
+    "TileCompressedData":[
+      -308,0,16,89,88,0,0,1,2,0,3,0,0,9,10,0,0,4,5,-4,0,2,7,8,-29,0,20,75,76,0,0,71,72,0,0,18,19,0,20,0,0,
+      26,27,0,0,21,22,-4,0,2,24,25,-29,0,2,92,93,-57,0,6,181,182,0,0,35,36,-4,0,2,43,44,-43,0,2,215,216,-12,
+      0,8,106,107,0,0,109,110,0,70,-37,0,16,103,104,0,105,105,0,111,112,0,0,123,124,0,0,126,127,-39,0,8,120,
+      121,0,122,122,0,128,129,-10,0,
+    ],
+    "TileDataFormat":1,
   },
   "name":"Flooded_Abbey_Tileset_Upd",
   "out_columns":16,

@@ -82,3 +82,41 @@ function checkSolveLocation(current_x, current_y, solved_array, tileMap){
     }
     return false;
 }
+
+// 0 is midwater
+// 1 is highwater
+// 2 is swap
+//use this to change the water level in the object, 
+//avoid setting it directly
+function changeWaterLevel(water_level = 2){
+    switch(water_level){
+        case 2:
+            dungeon_one_structs.water_level = !dungeon_one_structs.water_level;
+        default:
+            dungeon_one_structs.water_level = water_level
+            
+    }
+}
+
+function lowerWater(){
+    layer_set_visible("high_water_water", false);
+    layer_set_visible("high_water_deep_water", false);
+    layer_set_visible("high_water_floor", false);
+    layer_set_visible("high_water_col", false);
+    layer_set_visible("mid_water_col", true);
+    layer_set_visible("mid_water_ladder", true);
+    layer_set_visible("mid_water_floor", true);
+    layer_set_visible("mid_water_water", true);
+    layer_set_visible("mid_water_deep_water", true);
+}
+function raiseWater(){
+    layer_set_visible("high_water_water", true);
+    layer_set_visible("high_water_deep_water", true);
+    layer_set_visible("high_water_floor", true);
+    layer_set_visible("high_water_col", true);
+    layer_set_visible("mid_water_col", false);
+    layer_set_visible("mid_water_ladder", false);
+    layer_set_visible("mid_water_floor", false);
+    layer_set_visible("mid_water_water", false);
+    layer_set_visible("mid_water_deep_water", false);
+}
