@@ -1,2 +1,2 @@
-image_index = 1;
-status = 0;
+image_index = lever_direction;
+off = false;
