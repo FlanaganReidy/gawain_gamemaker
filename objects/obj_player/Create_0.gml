@@ -1,4 +1,6 @@
-move_speed = .75;
+base_speed = 1;
+move_speed = base_speed;
+ladder_speed = base_speed/2;
 player_direction = 1;
 facing = 0;
 movement_state = "default"

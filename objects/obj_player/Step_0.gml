@@ -35,6 +35,12 @@ if(tilemap_get_at_pixel(water_tiles, x, bbox_bottom)){
     movement_state = "default"
 }
 
+if(place_meeting(x,y, obj_ladder)){
+    move_speed = ladder_speed;
+} else {
+    move_speed = base_speed;
+}
+
 
 
 if(movement_state=="default"){
