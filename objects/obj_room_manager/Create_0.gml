@@ -14,6 +14,9 @@ currentTilemap = layer_tilemap_get_id("Col")
 
 tile_width = tilemap_get_tile_width(currentTilemap);
 global.tile_size_ = tile_width
+debug_event(room_width)
+global.grid = mp_grid_create(0,0,room_width/8, room_height/8, 8, 8)
+
 
 
 struct_foreach(currentRoom, function(key, item){

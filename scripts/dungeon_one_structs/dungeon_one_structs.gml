@@ -55,7 +55,8 @@ dungeon_one_structs_ = {
                 offSetY:80
             },
             
-        },FloodedAqueductA_HighWater:
+        },
+        FloodedAqueductA_HighWater:
             {screen0:{
                 width:20,
                 height:18,
@@ -96,6 +97,11 @@ dungeon_one_structs_ = {
                 height:18,
                 offSetX:80,
                 offSetY:0
+            }, screen7: {
+                width:20,
+                height:18,
+                offSetX:40,
+                offSetY:0    
             }
         }
         
