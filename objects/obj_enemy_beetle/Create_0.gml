@@ -14,7 +14,7 @@ allScreens = struct_get(dungeon_one_structs.roomStruct, room_get_name(room))
 currentScreen = struct_get(allScreens, screen);
 
 path_patrol = path_add();
-mp_grid_path(global.grid, path_patrol, x+4, y+4, x + 64,  y+4, false);
+mp_grid_path(global.grid, path_patrol, x+8, y+8, x + 72,  y-24, false);
 path_set_kind(path_patrol, 0);
-path_set_precision(path_patrol,1)
+path_set_precision(path_patrol,5)
 path_start(path_patrol, 1, path_action_reverse, true);

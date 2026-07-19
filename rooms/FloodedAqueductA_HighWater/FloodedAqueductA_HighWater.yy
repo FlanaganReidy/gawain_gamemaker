@@ -21,6 +21,7 @@
     {"name":"inst_24DAFFE0","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
     {"name":"inst_130CBB78","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
     {"name":"inst_3C957D5F","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
+    {"name":"inst_3D6E821D","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
     {"name":"inst_72682960","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
     {"name":"inst_316AAA98","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
     {"name":"inst_76A42593","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},
@@ -76,6 +77,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_beetle","path":"objects/obj_enemy_beetle/obj_enemy_beetle.yy",},"propertyId":{"name":"screen","path":"objects/obj_enemy_beetle/obj_enemy_beetle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"screen4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":680.0,"y":200.0,},
         {"$GMRInstance":"v4","%Name":"inst_1E1625CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E1625CF","objectId":{"name":"obj_item_sword","path":"objects/obj_item_sword/obj_item_sword.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":270.0,"scaleX":1.0,"scaleY":1.0,"x":104.0,"y":176.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3D6E821D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D6E821D","objectId":{"name":"obj_guidestone","path":"objects/obj_guidestone/obj_guidestone.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":680.0,"y":184.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":120,"TileCompressedData":[
           -20,0,2,1,2,-16,3,4,9,10,1,2,-16,3,4,9,10,1,2,-16,3,4,9,10,1,2,-9,3,-7,0,2,9,10,-20,-2147483648,-20,
@@ -130,7 +132,18 @@
           121,-36,122,4,128,129,120,121,-16,122,4,128,129,120,121,-22,122,-16,0,-111,-2147483648,-9,0,-116,-2147483648,
           -2,0,2,-2147483648,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Flooded_Abbey_Tileset_Upd","path":"tilesets/Flooded_Abbey_Tileset_Upd/Flooded_Abbey_Tileset_Upd.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"DeepWater","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"DeepWater","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":120,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Water","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":120,"TileCompressedData":[
+          -2162,-2147483648,-3,194,1,141,-12,194,-52,-2147483648,-2,194,6,141,194,194,158,194,194,-44,-2147483648,
+          -2,194,2,141,158,-3,194,1,142,-5,194,3,141,194,141,-52,-2147483648,-2,194,1,158,-3,194,2,141,194,-44,
+          -2147483648,-2,194,1,141,-11,194,2,158,194,-52,-2147483648,-5,194,-47,-2147483648,-3,194,-65,-2147483648,
+          -5,194,-47,-2147483648,-3,194,-65,-2147483648,-5,194,-47,-2147483648,-3,194,-65,-2147483648,-5,194,-47,
+          -2147483648,-3,194,-65,-2147483648,-3,194,2,158,194,-47,-2147483648,-3,194,-57,-2147483648,-10,194,3,
+          141,194,194,-47,-2147483648,-3,194,-57,-2147483648,-2,194,1,141,-10,194,-47,-2147483648,3,194,158,141,
+          -13,194,-44,-2147483648,4,194,158,194,158,-9,194,-47,-2147483648,3,194,141,141,-3,194,1,142,-7,194,2,
+          158,194,-44,-2147483648,-8,194,1,158,-7,194,-44,-2147483648,-13,194,3,158,194,194,-44,-2147483648,-7,
+          194,1,141,-6,194,2,141,194,-522,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Flooded_Abbey_Tileset_Upd","path":"tilesets/Flooded_Abbey_Tileset_Upd/Flooded_Abbey_Tileset_Upd.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"DeepWater","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"DeepWater","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":120,"TileCompressedData":[
           -91,-2147483648,-7,137,-113,-2147483648,-7,137,-64,-2147483648,-56,137,-64,-2147483648,-56,137,-64,-2147483648,
           -56,137,-64,-2147483648,-56,137,-64,-2147483648,-56,137,-64,-2147483648,-36,137,-14,-2147483648,-6,137,
           -64,-2147483648,-36,137,-14,-2147483648,-6,137,-64,-2147483648,-36,137,-14,-2147483648,-6,137,-64,-2147483648,
@@ -151,17 +164,6 @@
           219,220,137,137,-111,-2147483648,-2,137,-2,158,5,141,236,237,137,137,-104,-2147483648,9,219,220,219,
           220,219,220,219,220,141,-4,137,3,141,137,141,-104,-2147483648,9,236,237,236,237,236,237,236,237,158,
           -4,137,3,158,137,158,-199,-2147483648,1,137,-40,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Flooded_Abbey_Tileset_Upd","path":"tilesets/Flooded_Abbey_Tileset_Upd/Flooded_Abbey_Tileset_Upd.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Water","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":120,"TileCompressedData":[
-          -2162,-2147483648,-3,194,1,141,-12,194,-52,-2147483648,-2,194,6,141,194,194,158,194,194,-44,-2147483648,
-          -2,194,2,141,158,-3,194,1,142,-5,194,3,141,194,141,-52,-2147483648,-2,194,1,158,-3,194,2,141,194,-44,
-          -2147483648,-2,194,1,141,-11,194,2,158,194,-52,-2147483648,-5,194,-47,-2147483648,-3,194,-65,-2147483648,
-          -5,194,-47,-2147483648,-3,194,-65,-2147483648,-5,194,-47,-2147483648,-3,194,-65,-2147483648,-5,194,-47,
-          -2147483648,-3,194,-65,-2147483648,-3,194,2,158,194,-47,-2147483648,-3,194,-57,-2147483648,-10,194,3,
-          141,194,194,-47,-2147483648,-3,194,-57,-2147483648,-2,194,1,141,-10,194,-47,-2147483648,3,194,158,141,
-          -13,194,-44,-2147483648,4,194,158,194,158,-9,194,-47,-2147483648,3,194,141,141,-3,194,1,142,-7,194,2,
-          158,194,-44,-2147483648,-8,194,1,158,-7,194,-44,-2147483648,-13,194,3,158,194,194,-44,-2147483648,-7,
-          194,1,141,-6,194,2,141,194,-522,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Flooded_Abbey_Tileset_Upd","path":"tilesets/Flooded_Abbey_Tileset_Upd/Flooded_Abbey_Tileset_Upd.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Floor","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":34,"SerialiseWidth":120,"TileCompressedData":[
           -931,-2147483648,2,143,0,-75,-2147483648,1,137,-33,-2147483648,11,37,38,37,38,37,38,37,38,37,180,0,-109,

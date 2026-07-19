@@ -40,5 +40,5 @@
     "path":"sprites/guidestone/guidestone.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

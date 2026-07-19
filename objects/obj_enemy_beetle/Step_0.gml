@@ -1,4 +1,3 @@
-draw_path(path_patrol, x,y, true);
 if(x- xprevious >= 0){
     image_xscale = 1
 } else {
@@ -11,4 +10,3 @@ if(y-yprevious > 0){
 } else if (y-yprevious < 0) {
     sprite_index = beetle_horn_up
 }
-draw_self();
