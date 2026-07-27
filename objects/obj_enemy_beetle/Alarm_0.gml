@@ -1,13 +1,10 @@
-//walk back and forth logic
-/*
-if(flip == 0){
-    target_x = x - distance_to_walk 
-    image_xscale = -1
-    flip = 1
+if(invuln == true){
+    if(image_alpha == 0){
+        image_alpha = 1
+    } else {
+        image_alpha = 0;
+    }
 } else {
-    target_x = x + distance_to_walk
-    image_xscale = 1
-    flip = 0
+    image_alpha = 1
 }
- alarm[0] = alarm_interval
- */
+alarm[0] = 5        

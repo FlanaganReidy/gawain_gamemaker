@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object20",
+  "%Name":"obj_effect_poof",
   "eventList":[],
   "managed":true,
-  "name":"Object20",
+  "name":"obj_effect_poof",
   "overriddenProperties":[],
   "parent":{
     "name":"effects",

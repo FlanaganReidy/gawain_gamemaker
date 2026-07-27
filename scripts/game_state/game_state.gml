@@ -6,7 +6,8 @@ state_ = {
     gawain_status:{
         total_health:12,
         current_health:12
-    }
+    },
+    gravity:0.3
 }
 left_ = 0;
 right_ = 1

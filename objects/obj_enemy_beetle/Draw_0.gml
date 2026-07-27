@@ -1,4 +1,4 @@
-draw_path(path_patrol, x,y, true);
+draw_path(square_path_, x ,y, true);
 if(x- xprevious >= 0){
     image_xscale = 1
 } else {

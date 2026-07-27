@@ -1,1 +1,2 @@
-mp_grid_add_instances(global.grid, self, false);
+
+    mp_grid_add_instances(global.grid, self, true)

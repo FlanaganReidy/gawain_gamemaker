@@ -1,1 +1,1 @@
-mp_grid_draw(global.grid)
+//mp_grid_draw(global.grid)
