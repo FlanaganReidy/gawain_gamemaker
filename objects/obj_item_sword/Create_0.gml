@@ -1,1 +1,2 @@
-name="sword"
+event_inherited();
+name="sword";

@@ -455,6 +455,7 @@
     {"id":{"name":"Chest","path":"sprites/Chest/Chest.yy",},},
     {"id":{"name":"cursor","path":"sprites/cursor/cursor.yy",},},
     {"id":{"name":"drop_shadow","path":"sprites/drop_shadow/drop_shadow.yy",},},
+    {"id":{"name":"Flooded_abbey_upd_2","path":"sprites/Flooded_abbey_upd_2/Flooded_abbey_upd_2.yy",},},
     {"id":{"name":"Flooded_abbey_upd","path":"sprites/Flooded_abbey_upd/Flooded_abbey_upd.yy",},},
     {"id":{"name":"Flooded_abbey","path":"sprites/Flooded_abbey/Flooded_abbey.yy",},},
     {"id":{"name":"fly_ads","path":"sprites/fly_ads/fly_ads.yy",},},

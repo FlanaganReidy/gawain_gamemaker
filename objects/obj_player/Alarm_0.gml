@@ -1,2 +1,2 @@
-i_state = false
+invuln = false
 obj_player.image_blend = c_white

@@ -115,6 +115,14 @@ dungeon_one_structs_ = {
                     solved_locations:[[14, 22]],
                     solve_count:0
                 }
+        },
+        FloodedAqueductA_HighWater: {
+            puzzle1:{
+                solved:false,
+                reward_collected:false,
+                solved_locations:[[92,23],[88,23]],
+                solve_count:0
+            }
         }
     
     }

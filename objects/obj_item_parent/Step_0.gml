@@ -1,4 +1,3 @@
-
 if (z_value > 0 && vertical_speed > -max_vertical_speed) {
     vertical_speed -= state.gravity;
 }
@@ -15,4 +14,8 @@ if(z_value < 0){
         vertical_speed = 0
         z_value = 0
     }
+}
+
+if(keyboard_check(ord("O"))){
+    vertical_speed = 10
 }

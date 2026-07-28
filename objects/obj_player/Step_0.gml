@@ -15,7 +15,7 @@ if(sprite_index == Gawain_water_drown){
 
 
     
-var _hor = InputCheck(INPUT_VERB.RIGHT ) - InputCheck(INPUT_VERB.LEFT );
+_hor = InputCheck(INPUT_VERB.RIGHT ) - InputCheck(INPUT_VERB.LEFT );
 var _ver = InputCheck(INPUT_VERB.DOWN ) - InputCheck(INPUT_VERB.UP );
 
 move_and_collide(_hor*move_speed,_ver*move_speed, [tilemap, obj_obstacle_parent], undefined, undefined, undefined, move_speed, move_speed);
@@ -25,6 +25,24 @@ move_and_collide(_hor*move_speed,_ver*move_speed, [tilemap, obj_obstacle_parent]
 //debug commands
  if(keyboard_check(ord("H"))){
     state.gawain_status.current_health = 12;
+}
+//handle z movement
+if (z_value > 0 && vertical_speed > -global.max_vertical_speed) {
+    vertical_speed -= state.gravity;
+}
+
+
+z_value += vertical_speed;
+if(z_value < 0){
+    if(bounce > 0){ 
+        bounce--;
+        vertical_speed = -vertical_speed *.5
+        z_value = 0;
+    } else{
+        bounce = 2;
+        vertical_speed = 0
+        z_value = 0
+    }
 }
 
 

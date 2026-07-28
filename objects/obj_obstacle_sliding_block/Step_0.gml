@@ -1,4 +1,4 @@
-if(!isSliding && !isSolved){
+if(!isSliding && !isSolved && canPush){
     if(place_meeting(x,bbox_bottom-7,obj_player)){
         if(InputCheck(INPUT_VERB.UP)){
             push_counter++;
@@ -55,20 +55,14 @@ var _ver = clamp(target_y - y, -1, 1);
 
 move_and_collide(_hor * move_speed , _ver *  move_speed, [tilemap, obj_obstacle_parent], undefined, undefined, undefined, move_speed, move_speed)
 
+
 if(target_x == x && target_y == y){
-    
-    if(isSolved == false && isSliding == true && puzzle_location != "none"){
-        var this_puzzle = struct_get(obj_room_manager.currentPuzzleGroup, puzzle_location)
-        var solved_locations = this_puzzle.solved_locations
-        matches = checkSolveLocation(x,y,solved_locations, tilemap)
-        if(matches){
-            this_puzzle.solve_count += 1;
-            if(array_length(this_puzzle.solved_locations)== this_puzzle.solve_count){
-                this_puzzle.solved = true;
-                struct_set(obj_room_manager.currentPuzzleGroup, puzzle_location, this_puzzle)
-                isSolved = true;
-            }
-        } 
+    if(isSolved == false && isSliding == true){
+        if(x == goalX) && (y == goalY){
+            isSolved = true;
+            instance_create_depth(90*global.tile_size_,23*global.tile_size_, depth, obj_item_key,{z_value:100})
+            canPush = false;
+        }
     }
     isSliding = false;
 }

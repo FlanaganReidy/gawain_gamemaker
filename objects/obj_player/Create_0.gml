@@ -4,7 +4,10 @@ ladder_speed = base_speed/2;
 player_direction = 1;
 facing = 0;
 movement_state = "default"
-i_state = false;
+invuln = false;
+//variables for handling z movement
+z_value = 0;
+vertical_speed = 0
 
 //layer tile Ids
 water_tiles = layer_tilemap_get_id("Water");
@@ -12,7 +15,7 @@ deep_water_tiles = layer_tilemap_get_id("DeepWater");
 tilemap = layer_tilemap_get_id("Col");
 
 seeds = 0;
-small_keys = 1;
+small_keys = 0;
 
 //vectors for drawing collision line
 vector_x = 0;

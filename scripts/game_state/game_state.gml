@@ -7,7 +7,8 @@ state_ = {
         total_health:12,
         current_health:12
     },
-    gravity:0.3
+    gravity:0.3,
+    max_vertical_speed:5
 }
 left_ = 0;
 right_ = 1

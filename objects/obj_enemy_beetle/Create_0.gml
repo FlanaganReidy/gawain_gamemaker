@@ -18,13 +18,16 @@ currentScreen = struct_get(allScreens, screen);
 mp_grid_path(
         global.grid, 
         square_path_, 
-        x + edge_length/2, 
-        y - edge_length/2, 
-        x + edge_length/2, 
-        y + edge_length/2,
+        x+4, 
+        y+4, 
+        x+4 + edge_length, 
+        y+4,
         true)
+path_add_point(square_path_, x+4+edge_length, y+4+edge_length, 100);
+path_add_point(square_path_, x+4, y+4+edge_length, 100);
+path_add_point(square_path_, x+4, y+4, 100)
     
 path_set_closed(square_path_, false); 
 
    
-path_start(square_path_ ,1, path_action_reverse, true)
+path_start(square_path_ ,1, path_action_continue, true)

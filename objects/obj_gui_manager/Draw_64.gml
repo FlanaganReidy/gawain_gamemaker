@@ -40,7 +40,7 @@ draw_text(_drawx, _drawy, "x");
 draw_text(_drawx, _drawy+8, obj_player.seeds)
 //draw small keys
 _drawx += 10;
-draw_sprite(small_key, 0, _drawx, _drawy)
+draw_sprite(small_key, 0, _drawx, _drawy )
 _drawx += 12;
 draw_text(_drawx, _drawy, "x")
 draw_text(_drawx, _drawy+8, obj_player.small_keys)
