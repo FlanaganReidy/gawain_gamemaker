@@ -87,21 +87,29 @@ dungeon_one_structs_ = {
                 offSetX:80,
                 offSetY:16
             },
-                screen5:{
+            screen5:{
                 width:20,
                 height:18,
                 offSetX:100,
                 offSetY:16
-            }, screen6: {
+            }, 
+            screen6: {
                 width:20,
                 height:18,
                 offSetX:80,
                 offSetY:0
-            }, screen7: {
+            }, 
+            screen7: {
                 width:20,
                 height:18,
                 offSetX:40,
                 offSetY:0    
+            },
+            screen8: {
+                width:20,
+                height:18,
+                offSetX:60,
+                offSetY:0
             }
         }
         

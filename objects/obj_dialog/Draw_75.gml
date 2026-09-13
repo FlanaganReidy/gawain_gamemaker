@@ -13,3 +13,4 @@ font = font_add_sprite(gbs_mono_frames, 32, true, 2);
 draw_set_font(font)
 
 draw_text(_dx, _dy, draw_msg)
+draw_text(_dx, _dy + 16, draw_msg_2)

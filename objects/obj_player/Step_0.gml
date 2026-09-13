@@ -5,7 +5,7 @@ if(state.isPaused) exit;
 //drown behavior
 if(tilemap_get_at_pixel(deep_water_tiles, x, bbox_bottom)){
     if(alarm[1] < 1){
-        alarm[1] = 120;
+        alarm[1] = 90;
         sprite_index = Gawain_water_drown
     }
 }
@@ -15,7 +15,7 @@ if(sprite_index == Gawain_water_drown){
 
 
     
-_hor = InputCheck(INPUT_VERB.RIGHT ) - InputCheck(INPUT_VERB.LEFT );
+_hor = InputCheck(INPUT_VERB.RIGHT) - InputCheck(INPUT_VERB.LEFT );
 var _ver = InputCheck(INPUT_VERB.DOWN ) - InputCheck(INPUT_VERB.UP );
 
 move_and_collide(_hor*move_speed,_ver*move_speed, [tilemap, obj_obstacle_parent], undefined, undefined, undefined, move_speed, move_speed);

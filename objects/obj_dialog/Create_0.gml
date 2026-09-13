@@ -2,6 +2,8 @@ messages = []
 current_message = -1
 current_char = 0;
 draw_msg = "";
+draw_msg_2 = "";
+
 
 char_speed = .5;
 input_key = vk_anykey;

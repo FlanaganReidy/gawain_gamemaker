@@ -103,6 +103,7 @@
   "resources":[
     {"id":{"name":"font_gb_mono","path":"fonts/font_gb_mono/font_gb_mono.yy",},},
     {"id":{"name":"__InputUpdateController","path":"objects/__InputUpdateController/__InputUpdateController.yy",},},
+    {"id":{"name":"input_manager","path":"objects/input_manager/input_manager.yy",},},
     {"id":{"name":"obj_block_puzzle","path":"objects/obj_block_puzzle/obj_block_puzzle.yy",},},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},},
     {"id":{"name":"obj_effect_parent","path":"objects/obj_effect_parent/obj_effect_parent.yy",},},
@@ -129,6 +130,8 @@
     {"id":{"name":"obj_switch","path":"objects/obj_switch/obj_switch.yy",},},
     {"id":{"name":"obj_sword_swing","path":"objects/obj_sword_swing/obj_sword_swing.yy",},},
     {"id":{"name":"obj_treasure_chest","path":"objects/obj_treasure_chest/obj_treasure_chest.yy",},},
+    {"id":{"name":"FloodedAqueduct_HighWater","path":"rooms/FloodedAqueduct_HighWater/FloodedAqueduct_HighWater.yy",},},
+    {"id":{"name":"FloodedAqueduct_Interior","path":"rooms/FloodedAqueduct_Interior/FloodedAqueduct_Interior.yy",},},
     {"id":{"name":"FloodedAqueduct","path":"rooms/FloodedAqueduct/FloodedAqueduct.yy",},},
     {"id":{"name":"FloodedAqueductA_HighWater","path":"rooms/FloodedAqueductA_HighWater/FloodedAqueductA_HighWater.yy",},},
     {"id":{"name":"FloodedAqueductA_LowWater","path":"rooms/FloodedAqueductA_LowWater/FloodedAqueductA_LowWater.yy",},},
@@ -444,7 +447,6 @@
     {"id":{"name":"InputY","path":"scripts/InputY/InputY.yy",},},
     {"id":{"name":"layer_shader_end","path":"scripts/layer_shader_end/layer_shader_end.yy",},},
     {"id":{"name":"layer_shader_start","path":"scripts/layer_shader_start/layer_shader_start.yy",},},
-    {"id":{"name":"path_factory","path":"scripts/path_factory/path_factory.yy",},},
     {"id":{"name":"shader_palette_swap","path":"shaders/shader_palette_swap/shader_palette_swap.yy",},},
     {"id":{"name":"shader_start","path":"shaders/shader_start/shader_start.yy",},},
     {"id":{"name":"beetle_down","path":"sprites/beetle_down/beetle_down.yy",},},
@@ -506,6 +508,8 @@
     {"roomId":{"name":"FloodedAqueductA_LowWater","path":"rooms/FloodedAqueductA_LowWater/FloodedAqueductA_LowWater.yy",},},
     {"roomId":{"name":"FloodedAqueduct","path":"rooms/FloodedAqueduct/FloodedAqueduct.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"FloodedAqueduct_Interior","path":"rooms/FloodedAqueduct_Interior/FloodedAqueduct_Interior.yy",},},
+    {"roomId":{"name":"FloodedAqueduct_HighWater","path":"rooms/FloodedAqueduct_HighWater/FloodedAqueduct_HighWater.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
